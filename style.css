@@ -1,0 +1,146 @@
+header{
+    font-size: 1.5em;
+    z-index: 1;
+}
+
+h1, h2{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.photo{
+    float: right;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+    transition: all 1s ease-out;
+}
+
+.photo:hover{
+        box-shadow: 0 25px 10px black;
+        transform: scale(1.1);
+}
+
+.sidebar{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 100%;
+    background: #ff0000;
+    float: left;
+    font-size: 2.5em;
+}
+
+.sidebar a{
+    position: absolute;
+    top: 40%;
+    white-space: nowrap;
+    transform: rotate(-90deg) translate(-50%, 0);
+    transform-origin: 0.8em center;
+    text-transform: full-width;
+    color: orange;
+    text-shadow: 2px 2px 2px black;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.screen{
+    animation: blinkingText 0.8s infinite;
+}
+
+.screen:hover{
+    text-transform: uppercase;
+}
+
+@keyframes blinkingText{
+    0%{color: #000;}
+    49%{color: white;}
+    50%{color: orange;}
+    99%{color:transparent;}
+    100%{color: #000;}
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.gras{
+    font-weight: bold;
+}
+
+.ital{
+    font-style: oblique;
+}
+
+.container{
+    z-index: 1;
+    display: flex;
+    line-height: 1.5em;
+    margin-left: 80px;
+    font-size: 1.5em;
+}
+
+h3{
+    text-align: center;
+    text-shadow: 2px 2px 2px grey;
+}
+
+.formation, .Xp, .Comp{
+    padding: 15px;
+}
+
+footer{
+    display: flex;
+    line-height: 1.4em;
+    font-size: 1.4em;
+    margin-left: 80px;
+}
+
+.box{
+    z-index: 1;
+    flex-grow: 1;
+    padding: 15px;
+}
+
+
+h4{
+    text-align: center;
+    text-shadow: 2px 2px 2px grey;
+}
+
+a{
+    text-decoration: none;
+}
+
+.box li{
+    list-style: none;
+}
+
+.contact{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin: 0 15px 5px 0;
+    transition: all 1s ease-out;
+}
+
+.contact:hover{
+    transform: scale(1.1) rotate(8deg);
+}
