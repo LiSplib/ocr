@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="print.css" media="print">
     <title>CV</title>
 </head>
 <body>
     <div class="overlay">
-        <script src='https://harbor.naker.io/back/viewer.js' data-back='{"particle":{"direction1":{"x":0,"y":0,"z":0},"direction2":{"x":0,"y":0,"z":0},"life":0.2,"power":0.02,"texture":"https://res.cloudinary.com/naker-io/image/upload/v1566560053/star_01.png","number":102,"colorStart":[106,254,187,0.81],"colorEnd":[240,156,150,0.64],"sizeStart":0.7,"sizeEnd":1.4},"environment":{"gradient":"radial","sensitivity":0.5,"colorStart":[58,185,221,0.8300000000000001],"colorEnd":[55,0,82,0.96]}}' ></script>    </div>
+        <script src='https://harbor.naker.io/back/viewer.js' data-back='{"particle":{"direction1":{"x":0,"y":0,"z":0},"direction2":{"x":0,"y":0,"z":0},"life":0.2,"power":0.02,"texture":"https://res.cloudinary.com/naker-io/image/upload/v1566560053/star_01.png","number":102,"colorStart":[106,254,187,0.81],"colorEnd":[240,156,150,0.64],"sizeStart":0.7,"sizeEnd":1.4},"environment":{"gradient":"radial","sensitivity":0.5,"colorStart":[58,185,221,0.8300000000000001],"colorEnd":[55,0,82,0.96]}}' ></script></div>
     <header>
         <a href="img/moi.jpg"><img class="photo" src="img/moi.jpg" alt="photo de Jean-christophe_BARRET" title="Ne pas cliquer"/></a>
         <h1>Jean-christophe BARRET</h1>
@@ -20,27 +21,30 @@
         <a class="screen" href="img/bluescreen.jpg">Don't click here !!!</a>
     </div>
     <div class="container">
-        <div class="formation"><h3>Formation</h3>
+        <section class="formation">
+            <h3>Formation</h3>
             <ul>
                 <li><span class="gras">2019-2020</span> : Développeur Web et Web Mobile (AFPA la Valette du Var)</li>
                 <li><span class="gras">2018-2019</span> : Autoformation OpenClassRooms (HTML, CSS, JavaScript, PHP, MySQL)</li>
                 <li><span class="gras">2002-2000</span> : BTS Hôtellerie-Restauration (Lycée Saint-Louis Toulon)</li>
             </ul>
-        </div>
-        <div class="Xp"><h3>Expérience</h3>
+        </section>
+        <section class="Xp">
+            <h3>Expérience</h3>
             <ul>
                 <li><span class="gras">Actuellement</span> : Création du site web d'un restaurant <a href="https://lacasadibino.000webhostapp.com/"><span class="ital">La Casa Di Bino</span></a></li>
                 <li><span class="gras">Juin 2019</span> : Stage Développeur (mise à jour du site web de la société) <a href="http://www.labocom.com/"><span class="ital">Labocom</span></a></li>
             </ul>
-        </div>
-        <div class="Comp"><h3>Compétences</h3>
+        </section>
+        <section class="Comp">
+            <h3>Compétences</h3>
             <ul>
                 <li>Apprenez à créer votre site web avec HTML5 et CSS3</li>
                 <li>Apprenez à coder avec JavaScript</li>
                 <li>Concevez votre site web avec PHP et MySQL</li>
                 <li>Adoptez une architecture MVC en PHP</li>
             </ul>
-        </div>
+        </section>
     </div>
     <footer>
         <div class="box">
@@ -71,6 +75,5 @@
                 </ul>
         </div>
     </footer>
-    
 </body>
 </html>
