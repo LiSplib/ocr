@@ -188,11 +188,11 @@ a{
     }
 
     .photo{
-        width: 75px;
-        height: 75px;
+        width: 100px;
+        height: 100px;
         float: none;
         display: block;
-        margin: auto;
+        margin: 20px auto;
     }
 
     .container{
